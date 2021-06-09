@@ -61,7 +61,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     win = QLabel()
 
-    font = QFont("Cascadia Code", 10)
+    font = QFont("Mono", 10)
 
     win.resize(700, 365)
     win.setWindowTitle("Diskpart")
